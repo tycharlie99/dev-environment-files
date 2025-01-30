@@ -1,0 +1,14 @@
+
+
+
+# <type>[optional scope]: <description>
+# - type: fix, feat, BREAKING CHANGE, 
+# - scope: can be empty (eg. if the change is a global or difficult to assign to a single component)
+# [optional body]
+# 
+# [optional footer(s)]
+#
+# body: 72-character wrapped. This should answer:
+# * Why was this change necessary?
+# * How does it address the problem?
+# * Are there any side effects?

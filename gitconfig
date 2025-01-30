@@ -1,0 +1,15 @@
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+[user]
+	email = jkcharlie6679@gmail.com
+	name = Tsung Yu Chan
+[init]
+	defaultBranch = master
+[commit]
+	template = ~/.gitmessage
+[core]
+  editor = nvim
+[credential]
+	helper = store
