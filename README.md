@@ -6,6 +6,8 @@ Here are the files that are used to set up the development environment.
 
 Please follow the submodules instructions to install the plugins.
 
+> Please refer to the latest commit on the master branch for the latest configuration.
+
 ## Zsh
 
 `.p10k.zsh` is the configuration file for the prompt using the [Powerlevel10k](https://github.com/romkatv/powerlevel10k).
