@@ -1,0 +1,21 @@
+{
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "build",
+    "dist",
+    ".venv",
+    ".git",
+    ".cache"
+  ],
+  "venvPath": ".",
+  "venv": ".venv",
+  "pythonVersion": "3.11",
+  "pythonPlatform": "All",
+
+  "typeCheckingMode": "strict",
+
+  "reportMissingTypeStubs": false
+}

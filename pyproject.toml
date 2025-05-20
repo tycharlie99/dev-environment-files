@@ -1,0 +1,41 @@
+[tool.ruff]
+include = ["**/*.py"]
+
+# Which files/folders to exclude
+exclude = [
+  ".git",
+  "__pycache__",
+  "build",
+  "dist",
+  ".venv",
+  "venv",
+  ".mypy_cache",
+  ".pytest_cache",
+  ".cache",
+]
+
+# Enable line length limit (PEP8 recommends 79, many use 88 or 100)
+line-length = 100
+
+# Select which linting rules (codes) to enable
+# By default Ruff enables lots of checks, but you can customize here
+select = [
+  "E",  # pycodestyle errors (like E501 line too long)
+  "F",  # pyflakes errors (like F401 unused imports)
+  "W",  # pycodestyle warnings
+  "C",  # McCabe complexity
+  "B",  # flake8-bugbear codes (best practices)
+  "ANN", # typing related (variable annotations)
+]
+
+# Ignore some specific codes (common ignores)
+ignore = [
+  "F401",  # unused imports, do in pyright
+  "E203",  # whitespace before ':', conflicts with black formatter
+  "W503",  # line break before binary operator, conflicts with black
+]
+
+# Enable autofix on save or CLI
+fix = true
+
+verbose = true  # Uncomment for more output in CLI
