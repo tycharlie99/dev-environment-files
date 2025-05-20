@@ -32,10 +32,7 @@ select = [
 ignore = [
   "F401",  # unused imports, do in pyright
   "E203",  # whitespace before ':', conflicts with black formatter
-  "W503",  # line break before binary operator, conflicts with black
 ]
 
 # Enable autofix on save or CLI
 fix = true
-
-verbose = true  # Uncomment for more output in CLI
