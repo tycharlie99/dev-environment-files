@@ -4,9 +4,7 @@
 	st = status
 [user]
 	email = tycharlie.c@gmail.com
-	name = Tsung Yu Chan
-[init]
-	defaultBranch = master
+	name = TsungYu Chan
 [commit]
 	template = ~/.gitmessage
 [core]
