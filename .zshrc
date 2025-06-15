@@ -15,9 +15,20 @@ export GOROOT=$(brew --prefix go)/libexec
 export GOBIN=$GOPATH/bin
 
 alias ls='ls --color'
+alias ll='ls -l'
 
 bindkey '^[[1;5C' forward-word
 bindkey '^[[1;5D' backward-word
+
+HISTSIZE=10000
+HISTSIZE=10000
+HISTFILE=~/.zsh_history
+
+setopt hist_ignore_dups
+setopt hist_ignore_all_dups
+setopt hist_reduce_blanks
+setopt inc_append_history
+setopt no_share_history
 
 # init the zplug
 source /opt/homebrew/Cellar/zplug/2.4.2/init.zsh 
